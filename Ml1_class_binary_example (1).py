@@ -29,6 +29,10 @@ for i, col_name in enumerate(new_columns):
 
 # COMMAND ----------
 
+# display data
+
+# COMMAND ----------
+
 display(data)
 
 # COMMAND ----------
