@@ -1,0 +1,14 @@
+name: Basic GitHub Action
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  print_message:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Print a message
+      run: echo "Hello from your GitHub Action!"
